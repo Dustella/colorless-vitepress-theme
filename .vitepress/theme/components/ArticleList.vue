@@ -44,7 +44,7 @@ const allFolders = new Set(organizedPosts.map(post => post.folder))
         </li>
       </ul>
     </nav>
-    <ul class="pl-0!">
+    <ul class="pl-2!">
       <li v-for="post in organizedPosts.filter(({ folder }) => folder === currentFolder)" :key="post.date" class="list-none p-0 m-0">
         <VPLink :href="post.url" class="text-xl">
           {{ post.title }}
