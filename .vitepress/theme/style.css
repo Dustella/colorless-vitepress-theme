@@ -92,6 +92,10 @@
   transition: color 0.25s;
 }
 
+.VPHero {
+  margin-top: auto !important;
+}
+
 .VPHero div.main {
   display: flex;
   flex-direction: column;
@@ -118,4 +122,10 @@ body {
 
 ::-webkit-scrollbar {
   width: 0;
+}
+
+.tagline {
+  padding-top: 4rem !important;
+  font-weight: 700 !important;
+
 }
