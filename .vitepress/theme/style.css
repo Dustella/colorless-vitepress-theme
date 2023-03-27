@@ -1,3 +1,4 @@
+/* stylelint-disable selector-class-pattern */
 :root {
   --vp-c-brand: #808191;
   --vp-c-brand-light: #7f8095;
@@ -41,6 +42,7 @@
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
 
+/* stylelint-disable-next-line no-duplicate-selectors */
 :root {
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-darker);
@@ -116,9 +118,6 @@ h4 {
   letter-spacing: 0.1rem !important;
 }
 
-body {
-  scrollbar-width: none;
-}
 
 ::-webkit-scrollbar {
   width: 0;

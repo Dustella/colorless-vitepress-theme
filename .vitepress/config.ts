@@ -15,10 +15,16 @@ export default defineConfig({
       { text: 'About', link: '/about' },
     ],
     footer: {
-      message: 'By Dustella, Under CC BY-NC-SA 4.0 License',
-      copyright: '',
+      message: '',
+      copyright: 'By Dustella, Under CC BY-NC-SA 4.0 License',
     },
+    socialLinks: [
+      {
+        link: 'https://github.com/Dustella/Colorless-vitepress-theme',
+        icon: 'github',
 
+      },
+    ],
   },
   vite: {
     plugins: [Unocss()],

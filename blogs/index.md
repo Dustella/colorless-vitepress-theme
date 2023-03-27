@@ -30,7 +30,6 @@ const organizedPosts = (posts as PostData[])
 
 const allFolders = new Set(organizedPosts.map(post => post.folder))
 </script>
-
   <div class="flex sm:flex-row flex-col">
     <nav class="sm:w-50 sm:h-100 h-20">
       <ul class="pl-0!  ">
