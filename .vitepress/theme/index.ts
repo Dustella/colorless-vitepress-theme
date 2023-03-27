@@ -2,8 +2,6 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import NotFound from './components/NotFound.vue'
-import ArticleList from './components/ArticleList.vue'
-import ProjectsList from './components/ProjectsList.vue'
 import './style.css'
 import 'uno.css'
 
@@ -17,8 +15,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-    app.component('List', ArticleList)
-    app.component('ProjectsList', ProjectsList)
   },
 
 }
