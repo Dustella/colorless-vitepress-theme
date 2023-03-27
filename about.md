@@ -4,7 +4,7 @@ layout: doc
 
 # About
 
-[Generate 404](/404)
+<a href="/404" target="_blank" rel="noreferrer">/404</a>
 
 褪色的陈旧照片翻开珍藏的每一页  
 过往的画面忽然之间坠入黑夜  
