@@ -8,31 +8,41 @@ import {
   VPTeamPageTitle,
   VPTeamMembers
 } from 'vitepress/theme'
-import friends from './friends.json'
 
 const members = [
+    {
+    "name": "特菈",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/Dustella"
+      }
+    ],
+    "avatar": "https://github.com/dustella.png",
+    "title": "是另外一位的老公"
+  },
+
   {
     "name": "北雁云依",
     "links": [
       {
         "icon": "github",
-        "link": "https://beiyanyunyi.github.io/"
+        "link": "https://github.com/Beiyanyunyi"
       }
     ],
     "avatar": "https://github.com/beiyanyunyi.png",
-    "title": "嘿嘿，是我家老婆"
-  },
-  ...friends
+    "title": "是另外一位的老婆"
+  }
 ]
 </script>
 
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      My Friends
+      Team
     </template>
     <template #lead>
-      感谢捧场
+      咕噜咕噜
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
