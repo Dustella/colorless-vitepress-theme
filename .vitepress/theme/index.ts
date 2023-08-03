@@ -1,15 +1,11 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
-<<<<<<< HEAD
 import ArticleList from './components/ArticleList.vue'
 import Comments from './components/Comments.vue'
 import NewNotFound from './components/NewNotFound.vue'
 import BackLast from './components/BackLast.vue'
 import FriendList from './components/FriendList.vue'
-=======
-import NotFound from './components/NotFound.vue'
->>>>>>> a4110799cfae1f6646b93ef93586756d34512a2c
 import './style.css'
 import 'uno.css'
 
@@ -25,7 +21,6 @@ export default {
     })
   },
   // eslint-disable-next-line unused-imports/no-unused-vars
-<<<<<<< HEAD
   async enhanceApp({ app, router, siteData }) {
     // @ts-expect-error import for vite
     if (!import.meta.env.SSR) {
@@ -42,9 +37,6 @@ export default {
     app.component('ArticleList', ArticleList)
     app.component('FriendList', FriendList)
 
-=======
-  enhanceApp({ app, router, siteData }) {
->>>>>>> a4110799cfae1f6646b93ef93586756d34512a2c
     // ...
   },
 
